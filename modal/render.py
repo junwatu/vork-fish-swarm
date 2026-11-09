@@ -1,4 +1,4 @@
-"""Render the murmuration stills and clip on one Modal L40S.
+"""Render the fish swarm stills and clip on one Modal L40S.
 
 The scene directory (scene.json + *.slang + *.bin) is baked into the image at
 deploy, so edit/copy the scene BEFORE launching. Shader setup uses the shared
@@ -20,7 +20,7 @@ from pathlib import Path
 import modal
 
 VORK_VERSION = "0.2.0"  # vork release; bump to upgrade the L40S image
-app = modal.App("vork-l40s-baitball")
+app = modal.App("vork-l40s-fish-swarm")
 cache = modal.Volume.from_name("vork-l40s-cache", create_if_missing=True)
 
 SCENE = str(Path(__file__).resolve().parent.parent / "scene")

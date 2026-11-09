@@ -1,8 +1,8 @@
-# Bait ball — build + render report
+# Fish swarm — build + render report
 
-**Project:** `vork-baitball` (Vork + Slang, NVIDIA L40S on Modal).
+**Project:** `vork-fish-swarm` (Vork + Slang, NVIDIA L40S on Modal).
 **Deliverables:** 3 stills (`renders/stills/still-03s|06s|09s.png`) and a short
-clip (`renders/clip/baitball.mp4`), all at the top `std/path` profile.
+clip (`renders/clip/fish-swarm.mp4`), all at the top `std/path` profile.
 
 ## What was built
 
@@ -22,7 +22,7 @@ long clip can be split across many GPUs; outputs come back base64.
 python3 prepare.py
 modal run modal/render.py --spec spec-stills.json     --out-dir renders/stills
 modal run modal/render.py --spec spec-clip-chunks.json --out-dir /tmp/chunks
-ffmpeg -f concat -safe 0 -i list.txt -c copy renders/clip/baitball.mp4
+ffmpeg -f concat -safe 0 -i list.txt -c copy renders/clip/fish-swarm.mp4
 ```
 
 ## Simulation
@@ -80,8 +80,8 @@ faked per-material:
 | `renders/stills/still-03s.png` | `std/path` | 1920×1080 | t = 3 s | 123.4 s (cold pipeline) |
 | `renders/stills/still-06s.png` | `std/path` | 1920×1080 | t = 6 s | 64.0 s |
 | `renders/stills/still-09s.png` | `std/path` | 1920×1080 | t = 9 s | 62.2 s |
-| `renders/clip/baitball.mp4` | `std/path` | 1920×1080 | frames 48–240 (t ≈ 2–10 s) | ~28 min wall (8-way parallel) |
-| `renders/clip/baitball-draft.mp4` | `std/draft` | 1920×1080 | frames 48–240 | 29 s (single GPU) |
+| `renders/clip/fish-swarm.mp4` | `std/path` | 1920×1080 | frames 48–240 (t ≈ 2–10 s) | ~28 min wall (8-way parallel) |
+| `renders/clip/fish-swarm-draft.mp4` | `std/draft` | 1920×1080 | frames 48–240 | 29 s (single GPU) |
 
 Exposure: mean 0.41, 0 % clipped, <0.1 % near-black on every output.
 Clip: h264, 1920×1080, 24 fps, **193 frames, 8.04 s, 16.3 MB**.
