@@ -7,6 +7,10 @@ procedural environment program.
 
 Deliverables: hero stills and a short clip.
 
+## Requirements
+
+This project requires the [Vork 3D engine](https://github.com/voyager-so/vork) for compute simulation and rendering. When running cloud renders on Modal (`modal/render.py`), Vork is automatically installed inside the container image.
+
 ## How it is built
 
 `prepare.py` writes `scene/` (scene JSON, shaders, zero-filled state buffers);
