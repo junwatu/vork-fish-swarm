@@ -1,0 +1,52 @@
+# Secrets, credentials & environment files
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+*credentials*.json
+*secret*.json
+token.json
+auth.json
+.modal/
+.modal.toml
+.aws/
+.gcp/
+
+# Logs and run outputs (contains local paths, session IDs and URLs)
+*.log
+logs/
+reports/*.log
+
+# OS & Editor files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+ENV/
+
+# Temporary and cache directories
+.cache/
+cache/
+tmp/

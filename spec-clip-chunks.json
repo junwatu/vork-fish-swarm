@@ -1,0 +1,66 @@
+[
+ {
+  "out": "baitball-chunk01.mp4",
+  "shot": "scene.json",
+  "profile": "std/path",
+  "resolution": "1920x1080",
+  "frame_start": 48,
+  "frame_end": 72
+ },
+ {
+  "out": "baitball-chunk02.mp4",
+  "shot": "scene.json",
+  "profile": "std/path",
+  "resolution": "1920x1080",
+  "frame_start": 73,
+  "frame_end": 96
+ },
+ {
+  "out": "baitball-chunk03.mp4",
+  "shot": "scene.json",
+  "profile": "std/path",
+  "resolution": "1920x1080",
+  "frame_start": 97,
+  "frame_end": 120
+ },
+ {
+  "out": "baitball-chunk04.mp4",
+  "shot": "scene.json",
+  "profile": "std/path",
+  "resolution": "1920x1080",
+  "frame_start": 121,
+  "frame_end": 144
+ },
+ {
+  "out": "baitball-chunk05.mp4",
+  "shot": "scene.json",
+  "profile": "std/path",
+  "resolution": "1920x1080",
+  "frame_start": 145,
+  "frame_end": 168
+ },
+ {
+  "out": "baitball-chunk06.mp4",
+  "shot": "scene.json",
+  "profile": "std/path",
+  "resolution": "1920x1080",
+  "frame_start": 169,
+  "frame_end": 192
+ },
+ {
+  "out": "baitball-chunk07.mp4",
+  "shot": "scene.json",
+  "profile": "std/path",
+  "resolution": "1920x1080",
+  "frame_start": 193,
+  "frame_end": 216
+ },
+ {
+  "out": "baitball-chunk08.mp4",
+  "shot": "scene.json",
+  "profile": "std/path",
+  "resolution": "1920x1080",
+  "frame_start": 217,
+  "frame_end": 240
+ }
+]

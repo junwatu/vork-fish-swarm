@@ -1,0 +1,8 @@
+[
+ {"out": "still-03s.png", "shot": "scene.json", "profile": "std/path",
+  "resolution": "1920x1080", "at": 3.0},
+ {"out": "still-06s.png", "shot": "scene.json", "profile": "std/path",
+  "resolution": "1920x1080", "at": 6.0},
+ {"out": "still-09s.png", "shot": "scene.json", "profile": "std/path",
+  "resolution": "1920x1080", "at": 9.0}
+]
